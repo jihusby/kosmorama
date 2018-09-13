@@ -1,0 +1,27 @@
+{
+  "name": "show",
+  "plural": "shows",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "movie_id": {
+      "type": "number",
+      "required": true
+    },
+    "room_id": {
+      "type": "number",
+      "required": true
+    },
+    "startTime": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

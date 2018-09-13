@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "kosmorama_dev",
+    "password": "",
+    "name": "mongoDS",
+    "user": "kosmorama_dev",
+    "connector": "mongodb"
+  }
+}
