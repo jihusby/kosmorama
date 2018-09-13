@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-12">
+        <app-day-filter 
+        [dates]="dates"
+        [navigationLink]="'mymovies'">
+      </app-day-filter>
+        <app-my-movie-list 
+      (movieUnregistered)="onMovieUnregistered($event)"
+      [movies]="movies"></app-my-movie-list>
+    </div>
+  </div>
+  
+  

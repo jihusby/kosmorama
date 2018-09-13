@@ -1,0 +1,30 @@
+<div [ngClass]="{invisible: pauseDuration === 0 }" [style.height]="getHeight(pauseDuration)">
+        <div 
+          class="pause-row pull-left" 
+          [style.width]="'90%'" 
+          [style.height]="getHeight(pauseDuration)"></div>
+        <div 
+          class="pause-row pull-right" 
+          [style.width]="'10%'" 
+          [style.height]="getHeight(pauseDuration)"></div>
+      </div>
+
+
+      <div class="movie-item" [style.height]="getHeight(movie.duration)">
+        <div class="pull-left movie-row">
+          <span 
+            class="favorite-filled list-group-item-text glyphicon glyphicon-star" 
+            style="font-size: 1.6em"
+            (click)="unregister(movie.id)"></span>
+        </div>
+
+        <div class="pull-left movie-row" [routerLink]="['/movies/', movie.id]">
+          <p class="list-group-item-text">&nbsp;{{ movie.startTime.toLocaleTimeString() }} - {{ getEndTime(movie) }} ({{ movie.duration }} min)</p>
+          <h4 class="list-group-item-heading">&nbsp;{{ movie.title }}</h4>
+        </div>
+        <div class="pull-right movie-row"
+          [style.background-color]="getColor(movie.category)"
+          [style.height]="getHeight(movie.duration)">
+            <p>&nbsp;&nbsp;&nbsp;</p>
+        </div>
+      </div>

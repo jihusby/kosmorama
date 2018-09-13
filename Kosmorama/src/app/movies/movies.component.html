@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-xs-12">
+    <app-day-filter 
+      [dates]="dates"
+      [navigationLink]="'movies'"
+      [selectedDay]="day">
+    </app-day-filter>
+<!--     <app-movie-list 
+      [movies]="movies">
+    </app-movie-list>
+ -->  
+
+ <div class="row">
+    <div class="col-xs-12">
+      <div class="list-group">
+        <app-movie-item 
+          *ngFor="let movie of movies" 
+          [movie]="movie">
+        </app-movie-item>
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+</div>
+

@@ -1,0 +1,32 @@
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+
+.pause-row {
+    background-color: white;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-top: 0px;
+    border-bottom: 2px solid #DEDEDE;
+    
+}
+
+.movie-row {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.movie-item {
+    background-color: #EFEFEF;
+}
+
+.favorite-filled {
+    margin: 0px 0px 0px 3px;
+    font-size: 2.3em; 
+    color:rgb(0, 204, 255);
+}
+
+.registered {
+    background-color: #CACACA;
+}

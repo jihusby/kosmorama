@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-xs-12">
+      <app-my-movie-item 
+        (unregisterMovie)="onUnregisterMovie(movie)"
+        *ngFor="let movie of movies" 
+        [movie]="movie"
+        [pauseDuration]="getPauseDuration(movie)">
+      </app-my-movie-item>
+    </div>
+  </div>

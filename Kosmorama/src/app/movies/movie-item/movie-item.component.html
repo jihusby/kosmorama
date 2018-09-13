@@ -1,0 +1,22 @@
+
+<div data-toggle="modal" 
+    [attr.data-target]=movieId 
+    class="list-group-item list-group-item-action flex-column align-items-start" 
+    [ngClass]="{ registered: movie.registered }"
+    style="margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+    <div class="d-flex w-100 justify-content-between" style="height: 80px; border: 1px solid transparent;">
+
+        <div class="pull-left" style="width: 2%; background-color: lightseagreen; height: 100%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+            &nbsp;
+        </div>
+        <div class="pull-right" style="height: 100%; width: 98%; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px;">
+            <img src="{{ movie.imagePath }}" class="img-fluid img-responsive pull-right" style="max-height: 80px; vertical-align: top;">
+            <h4 class="mb-1">{{ movie.title }}</h4>
+            <span>{{ getTimeString() }} </span><p>
+            <span>{{ movie.category }}</span>
+        </div>
+
+    </div>
+ </div>
+
+<app-movie-detail [movie]="movie"></app-movie-detail>

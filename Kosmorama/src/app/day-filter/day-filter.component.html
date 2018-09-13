@@ -1,0 +1,12 @@
+  <div class="btn-group btn-group-justified" role="group">
+      
+    <div class="btn-group" role="group" *ngFor="let date of dates"> 
+      <a 
+        type="button" 
+        class="btn btn-default day-menu-item selected" 
+        [routerLink]="['/' + navigationLink, date.getDay()]"
+        [ngClass]="{current: date.getDay() == selectedDay}">
+        {{ weekday[date.getDay()] }}
+      </a>
+    </div>
+  </div>

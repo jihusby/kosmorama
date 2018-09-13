@@ -1,0 +1,21 @@
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+        </button>
+        <span [routerLink]="['/movies']" class="navbar-brand" style="cursor: pointer;">Kosmorama</span>
+      </div>
+      <div class="collapse navbar-collapse" id="collapse-1">
+          <ul class="nav navbar-nav" data-target="#collapse-1">
+            <li><a [routerLink]="['/mymovies']">Min liste</a></li>
+            <li><a [routerLink]="['/movies']">Program</a></li>
+            <li><a [routerLink]="['/about']">About</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>

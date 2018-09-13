@@ -1,0 +1,28 @@
+
+    <div class="modal fade" id="{{ movie.id }}" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">{{ movie.title }}</h4>
+            </div>
+            <div class="modal-body">
+                    <div class="col-xs-12 col-sm-6 col-md-7 pull-left">
+                        <p>{{ movie.desc }}</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-5 pull-right">
+                        <img src="{{ movie.imagePath }}" class="img-fluid img-responsive">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>&nbsp;</p>
+                    <small>{{ getTimeString() }}</small>&nbsp;
+                    <button class="btn btn-danger" [ngClass]="{invisible: !isRegistered()}" (click)="unregister()" data-dismiss="modal">Fjern fra liste</button>
+                    <button class="btn btn-success" [ngClass]="{invisible: isRegistered()}" (click)="register()" data-dismiss="modal">Legg til i liste</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Lukk</button>
+                </div>
+            </div>
+        </div>
+    </div>
