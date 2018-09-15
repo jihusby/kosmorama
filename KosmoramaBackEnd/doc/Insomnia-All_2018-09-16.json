@@ -1,0 +1,540 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-09-15T23:21:54.272Z",
+	"__export_source": "insomnia.desktop.app:v6.0.2",
+	"resources": [
+		{
+			"_id": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"created": 1534252323754,
+			"description": "",
+			"modified": 1534252323754,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"created": 1534327209224,
+			"description": "",
+			"modified": 1534327209224,
+			"name": "Kosmorama",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_e14904d5c23d4e6e9ad76c84d7e8d917",
+			"color": null,
+			"created": 1534252323787,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1534252323787,
+			"modified": 1534252323787,
+			"name": "New Environment",
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_1a4e158df864413981307c82b8a60d56",
+			"cookies": [],
+			"created": 1534252323790,
+			"modified": 1534252323790,
+			"name": "Default Jar",
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_85b204e9f0c841639ad79e531c36cca0",
+			"authentication": {
+				"disabled": false,
+				"password": "",
+				"type": "basic",
+				"username": ""
+			},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1534252337928,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7a307bb3568544e0a2ab9979b87ad01e",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534252337928,
+			"method": "GET",
+			"modified": 1534322943610,
+			"name": "Get Movies",
+			"parameters": [],
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/movies?access_token=1UUbrkYkvfN6Dbp27AXobAAiRgDSIxNwnJNpxyv9oZIvjeOfgPSS53anmodqSIMH",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f1f6ba4add21440c911dc96f55524ae6",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n{\n  \"title\": \"120 slag i minuttet\",\n  \"desc\": \"Det er tidlig 90-tall og AIDS har allerede tatt mange liv. De fryktløse aktivistene i Act Up-Paris jobber for respekt og verdighet for de som er smittet, og ikke minst for å få tilgang til medisinsk behandling. Allmøtene deres preges av opphetede diskusjoner men til tross for uenighet innad i gruppa er det likevel solidaritet, fellesskap og idealisme som er i fokus. 'Jeg tror det er vanskelig å elske en film mer enn denne' uttalte juryformann Pedro Almodóvar under filmfestivalen i Cannes. Den var en av favorittene på festivalen - og vant både Grand Prix, Filmkritikerprisen og Queer-palmen. 120 slag i minuttet  er både energisk og rørende. Filmen vil garantert få hjertet ditt til å slå litt raskere!\",\n  \"imagePath\": \"https://www.filmweb.no/incoming/article1351166.ece/BINARY/b/120%20slag%20i%20minuttet%20(no.plakat)\",\n  \"startTime\": \"2018-03-01T12:30:00\",\n  \"duration\": 95,\n  \"category\": 5\n},\n{\n  \"title\": \"A Ciambra\",\n  \"desc\": \"Med et olmt blikk og en sigarett i munnviken forsøker fjortenåringen Pio Amato å overbevise familien om at han er voksen nok til å få mer ansvar. Når faren Rocco og storebroren Cosimo – begge flittige svindlere og Pios store forbilder – havner i fengsel for å stjele strøm, utpeker Pio seg selv til familiens nye overhode og brødvinner. Når han samtidig blir kjent med den unge Ayiva fra Burkina Faso, tar Pios liv en ny og interessant retning. A Ciambra skildrer livet blant romfolk og afrikanske innvandrere i Gioia Tauro på tuppen av den italienske støvelen, hvor de gjør det de kan for å overleve i et samfunn som ser på dem med mistenksomhet og avsky. Italienerne behandler romfolket elendig, og romfolket behandler i tur innvandrerne fra Nord-Afrika på samme måte. Denne uoffisielle oppfølgeren til den kritikerroste Middelhavet (2015), skildrer hverdagen i et samfunn som er underrepresentert på film, og tegner et troverdig portrett av en gutt som vokser opp raskere enn han strengt tatt har godt av.\",\n  \"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=700&h=350&src=http://kosmorama.no/wp-content/themes/v3/cache/film-308982-no-1.jpeg\",\n  \"startTime\": \"2018-03-01T12:30:00\",\n  \"duration\": 95,\n  \"category\": 5\n},\n\n]"
+			},
+			"created": 1534252475332,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_8199e5e5849e40aa9dec3fe270c82b19",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534252475332,
+			"method": "POST",
+			"modified": 1534324489979,
+			"name": "Post Movie",
+			"parameters": [],
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/shows?access_token=bEwmviEatZK9kUeTPsOZO3DvA0OupQIrEI2YYJipItXc3A4FiclndDdsOTvBwe0O",
+			"_type": "request"
+		},
+		{
+			"_id": "req_951dfa3d8b054ee69979a887509baab0",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"realm\": \"string\",\n\t\"username\": \"jihusby@yahoo.com\",\n\t\"password\": \"letmein\",\n\t\"email\": \"jihusby@gmail.com\"\n}"
+			},
+			"created": 1534253084386,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_610e9902fd8e43f0a125d9656bc49660",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534253084386,
+			"method": "POST",
+			"modified": 1534322823673,
+			"name": "Post User",
+			"parameters": [],
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e56ea337f8174d52b91184d0de764727",
+			"authentication": {},
+			"body": {},
+			"created": 1534260307419,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534260307419,
+			"method": "GET",
+			"modified": 1534260309904,
+			"name": "Test GET",
+			"parameters": [],
+			"parentId": "wrk_fc1d14d16f2849728723fb770308ec1e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/explorer/",
+			"_type": "request"
+		},
+		{
+			"_id": "env_2c6aca32aee74fd9bf690b1beebf8291",
+			"color": null,
+			"created": 1534327209248,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1534327209248,
+			"modified": 1534327209248,
+			"name": "New Environment",
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_9d686a65528f4f1ca5d3df2e7f3684f6",
+			"cookies": [],
+			"created": 1534327209254,
+			"modified": 1534327209254,
+			"name": "Default Jar",
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_c3ede2f1e1154e588abc511db273e99e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"realm\": \"string\",\n  \"email\": \"jihusby@gmail.com\",\n\t\"password\": \"letmein\",\n  \"emailVerified\": true\n}"
+			},
+			"created": 1534327230636,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7e2da2b28cec46ad99ad07f82fe05650",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534327230636,
+			"method": "POST",
+			"modified": 1534332065735,
+			"name": "Create User",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Users",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d8c53badca074443a0824d7630003053",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"realm\": \"string\",\n  \"username\": \"jihusby@gmail.com\",\n\t\"password\": \"letmein\",\n  \"email\": \"jih@itema.no\",\n  \"emailVerified\": true\n}"
+			},
+			"created": 1534327443825,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e7031fda90354293b824903b519ca864",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534327443825,
+			"method": "POST",
+			"modified": 1534332995904,
+			"name": "Login",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Users/login?access_token=ZYkv2vFRm64Bpf5CypCeXa4mlHHO4V9EPdVt6ULurQwGSD2ZaBSZ1gN4svu5ATr3",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0f31b1ad5ecc4c84b5f2d57c67862da9",
+			"authentication": {},
+			"body": {},
+			"created": 1534331451530,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534331451530,
+			"method": "GET",
+			"modified": 1534333451813,
+			"name": "Get Users",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/Users?access_token=SxJgLBJY9ZzgTkGjaYHpf6av0pCFxWgnoh3XEu0GbZKL17t3p68M1OFAzdGlS1g6",
+			"_type": "request"
+		},
+		{
+			"_id": "req_dcb3c0bd01984f6e96e59cc667174365",
+			"authentication": {},
+			"body": {},
+			"created": 1534334260013,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534334260013,
+			"method": "GET",
+			"modified": 1534342197739,
+			"name": "Get Categories",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": " http://localhost:3000/api/categories",
+			"_type": "request"
+		},
+		{
+			"_id": "req_fdbf37b777124fdb8dec1c51b588848b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n\t{\n  \t\"category_id\": 1,\n  \t\"name\": \"Arrangement\"\n\t},\n\t{\n  \t\"category_id\": 2,\n  \t\"name\": \"Dokumentar\"\n\t},\n\t{\n  \t\"category_id\": 3,\n  \t\"name\": \"Kosmokids\"\n\t},\n\t{\n  \t\"category_id\": 4,\n  \t\"name\": \"Kulinarisk\"\n\t},\n\t{\n  \t\"category_id\": 5,\n  \t\"name\": \"Ramaskrik\"\n\t},\n\t{\n  \t\"category_id\": 6,\n  \t\"name\": \"Samfunn\"\n\t},\n\t{\n  \t\"category_id\": 7,\n  \t\"name\": \"Skråblikk\"\n\t},\n\t{\n  \t\"category_id\": 8,\n  \t\"name\": \"Spesialvisninger\"\n\t},\n\t{\n  \t\"category_id\": 9,\n  \t\"name\": \"Åpningsfilm\"\n\t}\n]"
+			},
+			"created": 1534334568157,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_077f6a24a718411a8314716b69637d30",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534334568157,
+			"method": "POST",
+			"modified": 1537053502645,
+			"name": "Create Categories",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/categories",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4722e22da7404906b4849bf1c67b2f12",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 1,\n\t\t\"title\": \"Røverdatter\",\n\t\t\"desc\": \"Sofia Haugan tar opp kontakten med sin rusavhengige og kriminelle far i det han kommer ut av fengsel etter 19 måneder. Han er edru og hun hjelper ham med jobb og leilighet, men det tar ikke lang tid før rusen er tilbake i livet hans. Filmen skildrer en nær og sår familierelasjon der Sofia prøver å ordne opp i farens liv og hjelpe ham, fordi hun ønsker å se om han etter mange år kan bli som en far for henne. Vi får se hvordan deres liv endres og hvilke utfordringer de møter på. Filmen stiller også spørsmål ved i hvilken grad de offentlige støttesystemer bidrar til å se enkeltmenneskene som er avhengige av hjelp og hvordan livet til en rusavhengig er. Røverdatter er Sofias debutfilm og handler både om hennes og farens personlige reise. Selv om de to har mange nedturer og alvorlige samtaler, er filmen også i stor grad fylt med humor, varme og håp.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-331380-no-0.jpeg\",\n\t\t\"duration\": 84\n\t},\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 2,\n\t\t\"title\": \"Wasted!\",\n\t\t\"desc\": \"En tredjedel av all mat som dyrkes i verden kastes før den kommer på en tallerken. Wasted! The Story of Food Waste viser hvordan vi kan endre våre vaner, knyttet til hvordan vi handler, tilbereder, gjenvinner og spiser mat. Filmen skaper diskusjon om hvordan matsvinn påvirker klimaendringer og sult verden over. Alle kan gjøre en forskjell. Gjennom øynene til kjente kokker som Anthony Bourdain, Dan Barber, Mario Batali, Massimo Bottura og Danny Bowien, vil publikum få se hvordan de mest innflytelsesrike kokkene i verden kan gjøre det meste ut av all type mat. Mat som de fleste oppfatter som søppel og avfall, forvandles til fantastiske retter.\\nDenne filmen vises også under kulinarisk kino hos Credo. Les mer om arrangementet her: https://www.facebook.com/events/409187796161922/\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-334858-no-0.jpeg\",\n\t\t\"duration\": 85\n\t},\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 3,\n\t\t\"title\": \"Letters\",\n\t\t\"desc\": \"På den danske dokumentarfilmfestivalen CPH:DOX sitt talentutviklingsprogram møttes regissørene Marte Vold og Yun Jéro i 2015. De to holdt kontakten som brevvenner i etterkant, men som filmskapere er naturligvis brevene ikke nedskrevet på papir — de er på video. I hele 2016 sendte Jéro og Marte jevnlige oppdateringer i form av videodagbøker og korte utdrag fra hverdagen sin, og det er disse som nå er klippet sammen til dokumentarfilmen Letters. På den ene siden følger vi Marte, en norsk mor i sin hverdag i Norge komplett med tannpuss og 17. mai. På den andre siden har vi Jéro, en singel mann som bor i Seoul sammen med katten sin. Sammen blir Letters en film om to personers hverdag- og familieliv på hver sin side av jordkloden. Hva er forskjellene og hva er likhetene deres? Og hvordan forholder de seg til sin egen familie, som sønn og som mor? Letters er varm, morsom, lærerik og inspirerende — og taler direkte til kikkertrangen som bor i oss alle.\\n\\nYun Jéro er en koreansk regissør født i 1980 som tok utdannelsen sin i Frankrike. Han har laget en rekke kortfilmer og to dokumentarfilmer som har blitt vist på festivaler over hele verden. Marte Vold (født i 1978) er fotograf og regissør og har laget mange kortfilmer, sist Totem som ble valgt ut til den prestisjetunge festivalen New Directors/New Films i New York. Letters hadde sin verdenspremiere under Busan International Film Festival - Asias viktigste filmfestival.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-364001-no-0.jpeg\",\n\t\t\"duration\": 74\n\t},\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 4,\n\t\t\"title\": \"Trondheimsreisen\",\n\t\t\"desc\": \"Trondheimsreisen (2018) er en historisk dokumentarfilm som tar for seg Trondheim og byens utvikling fra begynnelsen av 1900-tallet frem til 1980 tallet. Filmen er regissert av Magnus Skatvold og produsert av Dag Hoel i samproduksjon med Spætt Film. Basert utelukkende på arkivopptak, hvorav det eldste klippet er kroningen av Kong Håkon i 1906, tar filmen oss med på byens og trondhjemmernes vandring gjennom tiden. Kjente og ukjente stemmer forteller om hvordan de har vært med på å forme byen, og hvordan byen har formet dem. Blant fortellerne er Odd Reitan, Anne B. Ragde, Liv Ullmann og Ulf Risnes. Filmmusikken er komponert av Kristoffer Lo og spilt inn av Trondheim Symfoniorkester.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-296476-no-0.jpeg\",\n\t\t\"duration\": 80\n\t},\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 5,\n\t\t\"title\": \"Chavela\",\n\t\t\"desc\": \"Chavela Vargas var høyt elsket for sine følelsesladde tolkninger av meksikansk populærmusikk og ble en internasjonal stjerne mot slutten av sin karriere. Som en av de første kvinnene som stod på scenen iført bukser var hun en pionér for kvinnelige musikere og feminismen. Hun var også i sin tid kjent for å ha affærer med konene til de mektigste mennene i bransjen. Da hun offisielt kom ut som homofil i en alder av 81, ble hun også et ikon i kampen for homofiles rettigheter. Filmen er basert på et intervju med Chavela fra 1991, da hun entret scenen igjen etter femten års fravær. Med hennes egne fortellinger, og de fra hennes nærmeste, blir vi kjent med hennes liv av og på scenen fra flere vinkler. Hva skyldtes egentlig hennes lange pause fra rampelyset, og hadde hun virkelig en affære med Frida Kahlo?\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-334225-no-0.jpeg\",\n\t\t\"duration\": 93\n\t},\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 6,\n\t\t\"title\": \"Grace Jones: Bloodlight and bami\",\n\t\t\"desc\": \"Grace Jones er en av popkulturens største ikon. Hun slo gjennom på 1970-80-tallet med en særegen, androgyn stil, fantastiske antrekk, spektakulære sceneshow og ikke minst et unikt musikalsk uttrykk. Hennes offentlige image har alltid vært en nøye voktet konstruksjon. I år fyller hun 70, men hun er stadig aktiv som musiker og turnerer verden over med sine show. I Sophie Fiennes’ dokumentar får vi et blikk bak fasaden og kommer overraskende tett på. Regissøren har fulgt Jones i 10 år, og resultatet er en fascinerende film i en flue-på-veggen stil. Men hvem har egentlig kontroll over kameraet, regissøren eller divaen? Vi følger Jones fra konsertscene til kirke, fra Paris til Jamaica. Gjennom samtaler med familie, venner og kolleger avslører Jones en barndom preget av mishandling, og hvordan den har påvirket henne på veien til å bli en av vår tids største stjerner.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-320947-no-0.jpeg\",\n\t\t\"duration\": 123\n\t},\t\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 7,\n\t\t\"title\": \"Mr. Gay Syria\",\n\t\t\"desc\": \"For første gang i historien arrangeres konkurransen Mr. Gay Syria. Mahmoud, grunnleggeren av den syriske LHBTI-bevegelsen og flyktning i Berlin, arrangerer konkurransen i Istanbul, basert på et ønske og behov om å få satt det syriske LHBTI-miljøet på kartet.\\n\\nI jakten på en som skal reise til Malta for å representere Syria i Mr. Gay World, møter vi fem modige deltakere. De har alle et felles mål om å gjøre en forskjell for syriske LHBTI-personer, og å finne veien til et bedre liv hvor de trygt kan være seg selv. Husein lever to separate liv, ett som familiefar og ett som homofil og deltaker i Mr. Gay Syria. Omar ønsker å kunne leve trygt sammen med kjæresten Nader, som får asyl i Norge. På reisen mot syrisk representasjon i Mr. Gay World får vi et innblikk i et lite men sterkt miljø, preget av vennskap, fortvilelse og håp.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-315412-no-0.jpeg\",\n\t\t\"duration\": 88\n\t},\t\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 8,\n\t\t\"title\": \"Hatets vugge\",\n\t\t\"desc\": \"I fire år har den norske filmskaperen Håvard Bustnes fulgt det greske høyreekstreme partiet Gyllent Daggry fra innsiden, med et ønske om å forstå hva som har skjedd med sin barndoms ferieparadis. Dokumentaren følger Gyllent Daggry i en turbulent periode i gresk politikk. Da de mannlige partitoppene fengsles på grunn av anklager om å drive en kriminell organisasjon, tar kvinnene over og løfter partiet til Hellas' tredje største. Vi møter tre kvinner – en mor, en hustru og en datter av de fengslede mennene. Bustnes følger dem både privat og politisk og prøver å forstå deres personligheter, tanker og verdier. Vi blir vitne til en kontrast mellom de hverdagslige og åpne samtalene, og samtaler om den ekstreme bevegelsen kvinnene er en del av. Dette avslører den voksende distansen mellom fakta, følelser og politisk spill, og gir et unikt innblikk bak fasaden til det vi kan kalle frontlinjen av moderne nasjonalisme.\",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-322683-no-0.jpeg\",\n\t\t\"duration\": 93\n\t},\t\n\t{\n\t\t\"category_id\": 2,\n\t\t\"movie_id\": 9,\n\t\t\"title\": \"Rockabul\",\n\t\t\"desc\": \"I Rockabul følger vi den Australske journalisten og filmskaperen Travis Beard som følger et aspekt av Afghansk kultur vi sjelden ser i vestlig media. Rockabul graver mye dypere enn nyhetsoverskriftene, og fokuserer heller på dagliglivet og generasjonsskifte i lokalsamfunnet. Dokumentaren følger tett på fødselen til Afghans Heavy Metal.\\n\\nRegissør Travis Beard reiste opprinnelig til Afghanistan for å jobbe som journalist, men forelsket seg raskt i det kreative miljøet der og bestemte seg for å lage denne dokumentaren. \",\n\t\t\"imagePath\": \"http://kosmorama.no/wp-content/themes/v3/timthumb.php?w=250&h=150&src=http://kosmorama.no/wp-content/themes/v3/cache/film-361236-no-0.jpeg\",\n\t\t\"duration\": 84\n\t}\n\n\t\n]"
+			},
+			"created": 1534338419178,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_24f25803134a4f6092b1dd714fa8686d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534338419178,
+			"method": "POST",
+			"modified": 1534509502522,
+			"name": "Create Movies (dokumentar)",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/movies",
+			"_type": "request"
+		},
+		{
+			"_id": "req_54cafd08672546b48feb0988459cb5f8",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n\t{\n\t\t\"movie_id\": 1,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-05T18:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-05T22:10:00\"\n\t},\n\t{\n\t\t\"movie_id\": 3,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-06T22:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-07T10:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-07T13:45:00\"\n\t},\n\t{\n\t\t\"movie_id\": 5,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-07T15:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-07T16:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-07T17:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-07T22:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-08T08:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-08T10:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-08T10:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-08T12:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-07T13:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 3,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-08T14:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-08T16:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-08T18:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-08T18:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 5,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-08T20:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 6,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-08T20:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-08T22:00:00\"\n\t},\n\n\t{\n\t\t\"movie_id\": 1,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-09T10:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-07T22:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 6,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-09T11:45:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-09T14:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-09T17:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-09T17:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-09T17:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-09T18:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 7,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-09T19:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 8,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-09T19:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 8,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-09T19:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 6,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-09T20:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 1,\n\t\t\"room_id\": 5,\n\t\t\"startTime\": \"2018-03-09T22:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 9,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-09T22:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 1,\n\t\t\"startTime\": \"2018-03-09T22:30:00\"\n\t},\n\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-10T10:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-10T10:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-10T10:15:00\"\n\t},\n\t{\n\t\t\"movie_id\": 5,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-10T12:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-10T12:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-10T12:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 1,\n\t\t\"room_id\": 2,\n\t\t\"startTime\": \"2018-03-10T13:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-10T14:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 10,\n\t\t\"startTime\": \"2018-03-10T15:30:00\"\n\t},\n\t{\n\t\t\"movie_id\": 6,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-10T16:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 8,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-10T17:00:00\"\n\t},\t\n\t\t{\n\t\t\"movie_id\": 7,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-10T19:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 2,\n\t\t\"startTime\": \"2018-03-10T20:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-10T21:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 8,\n\t\t\"startTime\": \"2018-03-10T21:30:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 2,\n\t\t\"startTime\": \"2018-03-10T22:00:00\"\n\t},\t\n\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-11T10:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 7,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-11T10:30:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 6,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-11T11:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 8,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-11T12:00:00\"\n\t},\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 2,\n\t\t\"startTime\": \"2018-03-11T12:20:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-11T12:30:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 2,\n\t\t\"room_id\": 2,\n\t\t\"startTime\": \"2018-03-11T14:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 6,\n\t\t\"startTime\": \"2018-03-11T15:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 9,\n\t\t\"startTime\": \"2018-03-11T16:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 3,\n\t\t\"room_id\": 3,\n\t\t\"startTime\": \"2018-03-11T18:00:00\"\n\t},\t\n\t{\n\t\t\"movie_id\": 4,\n\t\t\"room_id\": 7,\n\t\t\"startTime\": \"2018-03-11T22:00:00\"\n\t}\n\t\n\t\n\n\n\t\n\n\n\t\n]"
+			},
+			"created": 1534338976637,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_cc3c5070e7884001a7f4c03db513a38c",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534338976637,
+			"method": "POST",
+			"modified": 1534928609964,
+			"name": "Create Shows",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/shows",
+			"_type": "request"
+		},
+		{
+			"_id": "req_905c9b8fe5e0463bae488c51e1eebc49",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "[\n\t{\n\t\t\"room_id\": 1,\n\t\t\"name\": \"Prinsen 1\"\n\t},\n\t{\n\t\t\"room_id\": 2,\n\t\t\"name\": \"Prinsen 2\"\n\t},\n\t{\n\t\t\"room_id\": 3,\n\t\t\"name\": \"Prinsen 3\"\n\t},\n\t{\n\t\t\"room_id\": 4,\n\t\t\"name\": \"Prinsen 4\"\n\t},\n\t{\n\t\t\"room_id\": 5,\n\t\t\"name\": \"Prinsen 5\"\n\t},\n\t{\n\t\t\"room_id\": 6,\n\t\t\"name\": \"Prinsen 6\"\n\t},\n\t{\n\t\t\"room_id\": 7,\n\t\t\"name\": \"Prinsen 7\"\n\t},\n\t{\n\t\t\"room_id\": 8,\n\t\t\"name\": \"Prinsen 8\"\n\t},\n\t{\n\t\t\"room_id\": 9,\n\t\t\"name\": \"Kongesalen\"\n\t}\n]"
+			},
+			"created": 1534340468128,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_28b37802ec444f66a6d3ba3ff4cd2ca4",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534340468128,
+			"method": "POST",
+			"modified": 1537053499749,
+			"name": "Create Rooms",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/rooms",
+			"_type": "request"
+		},
+		{
+			"_id": "req_c92e5390a02b40948e2e0d5df015364c",
+			"authentication": {},
+			"body": {},
+			"created": 1534423546172,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534423546172,
+			"method": "GET",
+			"modified": 1534423580109,
+			"name": "Get stuff",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/rooms",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5ba9b95106d0426490af273797a2d116",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "\t{\n\t\t\"room_id\": 10,\n\t\t\"name\": \"Nova 1\"\n\t}"
+			},
+			"created": 1534423842738,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_24e5c8bb8c524669b2ddf62d910fe5ee",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534423842738,
+			"method": "POST",
+			"modified": 1534423869219,
+			"name": "Create Rooms Nova",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/rooms",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f39aa99db33a40699f44a6b4a1c34078",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"firstName\": \"Jan Inge\",\n  \"lastName\": \"Husby\",\n  \"stdImage\": \"janinge_472x472.jpg\",\n  \"extraImage1\": \"janinge_472x472.jpg\",\n  \"extraImage2\": \"\",\n  \"birthday\": \"1972-07-27T00:00:00\",\n  \"startDate\": \"2007-01-02T00:00:00\",\n  \"extraDate1\": \"\",\n  \"extraDate2\": \"\"\n}"
+			},
+			"created": 1534928509130,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_14f1e952598c4f19a919503d4b479fe1",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1534928509130,
+			"method": "POST",
+			"modified": 1537053463304,
+			"name": "Create Itema Employees",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/employees/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9201333af3e74ea09930db3e5a166d32",
+			"authentication": {},
+			"body": {},
+			"created": 1534928705866,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1534928705866,
+			"method": "GET",
+			"modified": 1534928713654,
+			"name": "Get Itema Employees",
+			"parameters": [],
+			"parentId": "wrk_9a029ba0638d44d5996debea7a6d908e",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/employees/",
+			"_type": "request"
+		}
+	]
+}
